@@ -1,4 +1,5 @@
 <html>
+<head>
 <title>Shanu Salunke</title>
 <script>
 function showHideArcheryReviews() {
@@ -10,74 +11,95 @@ function showHideArcheryReviews() {
     }
 }
 </script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+</head>
 <body>
-  <h2>Shanu Salunke</h2>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg">
+        <h2>Shanu Salunke</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg">
+        <h3>Publications</h3>
+        <a href="https://scholar.google.com/citations?user=blBBuC0AAAAJ&hl=en"> [Google Scholar]</a> 
+        <ul>
+          <li> Zhao, Yiran, Shanu Salunke, Alexander Leavitt, Kevin Curtin, Nghia Huynh, and Clint Zeagler. "E-archery: prototypvte wearable for analyzing archery release." In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct, pp. 908-913. ACM, 2016.<a href="https://drive.google.com/file/d/1QpYwlWZwSOVNSK22vPkhq6JHLjgmoeP4/view?usp=sharing"> [Full Paper Pdf] </a> <a href="javascript:showHideArcheryReviews()"> [Review Comments]</a>
+
+            <div id="archeryReviewComments" style="display:none">
+              <p> Reviewer 1:</p>
+              <p> Contribution:In the paper, a wearable system for archery release detection is proposed. A Random Forest classifier was trained using features computed in several windows. Although the proposed wearable system seems to be suitable in archery, the reviewer argues for improving the quality of the paper. Minor and major points are summarized below.</p>
+              <p>
+                Review: <br>
+              Positive aspects:
+              <ul>
+              <li> Good motivation</li>
+              <li> Integration of background chapter</li>
+              <li> Placement of sensor and proposed pipeline</li>
+              </ul>
+
+              Negative aspects: <br>
+              Minor points:
+              <ul>
+              <li> Sentences are often too long which makes it difficult to follow (abstract: “This paper ... not present.”, introduction: “An archer’s form ... of the target.”, “According to out expert ... of that muscle.”, discussion: “Data collected from this device ...”, ...)</li>
+              <li> Abstract: three types of releases should be mentioned; “a” classifier</li>
+              <li> Background: I would use small letters for twelve parts; abbreviation “BEST” is not further used; Figures should be mentioned in “It can be clearly seen in ... above”</li>
+              <li> Consistency problems: “low-cost” vs. “low cost”, “smartphone” vs “smart-phone”, “Bluetooth” vs “bluetooth”</li>
+              <li> Methods: acceleration range should be included, reference for Savitzky-Golay filter is missing</li>
+              <li> Result: cross validation does not “suggest” -> “A precision of ... was achieved.”</li>
+              <li> References: a consistent format for conference proceedings should be used; reference 8: type is not clear; is there a journal article that can be included?</li>
+              </ul>
+
+
+              Major points:
+              <ul>
+              <li> Don’t describe things that you tried out, e.g. “Originally, out group ...” (design considerations)</li>
+              <li> “Design Description” and “Method”: tenses are mixed, sometimes it is not clear what was implemented and what is future work</li>
+              <li> Please do not used “x, y, z direction”: you should either provide a coordinate system integrated in Figure 4 or use anatomical axes</li>
+              <li> Method: “...features of the raw...”, it is not clear what it is meant by features</li>
+              <li> Quality of figures: please provide sharp images, integrate labels for each axis, linear acceleration should be provided in g or m/s^2, lines should be thicker</li>
+              <li> Discussion: please include an assessment of the algorithm, advantages/disadvantages, ...</li>
+              </ul>
+              </p>
+
+              <p> Reviewer 2:</p>
+
+              <p> Contribution:The paper presents an approach for a wearable archery system. It measures accelerometer data on the glove and classifies different types of releases.</p>
+
+
+
+              <p> Review:
+              The paper itself is well written and easy understandable. It has a well written motivation and includes and theory chapter for better understanding. The paper demonstrates on a good descripted way the proposed sensor system, beginning theory, sensor design, placement, classification and result presentation. However, there are some weaker points:
+              <ul>
+              <li> I would added some more specific information about the release types and the classifier into the abstract, that would it make more understandable</li>
+              <li> Figures should be more related to text section for better understanding</li>
+              <li> The purpose of the paper at end of the related work section is not clear. It states the development of form and performance relation analysis, but that is not exactly done in this contribution?</li>
+              <li> Why are used only 5 Hz sampling rate and has therefore the filter delay an influence correct window separation and finally on the classified release?</li>
+              <li> Hoe could is the data binning exactly done?</li>
+              <li> Figure 5 is hard to understand on black/white prints</li>
+              <li> I would not describe the original goals using EMG if it is not implemented in the final work</li>
+              <li> References should be in an consistent format, webpages should have an access date</p></li>
+              </ul>
+              </div>
+
+          </li>
+          <li> Goel, Ashok, Brian Creeden, Mithun Kumble, Shanu Salunke, Abhinaya Shetty, and Bryan Wiltgen. "Using watson for enhancing human-computer co-creativity." In Proceedings of AAAI 2015 fall symposium on cognitive assistance, Arlington, VA, November. 2015.<a href="http://www.aaai.org/ocs/index.php/FSS/FSS15/paper/download/11713/11472"> [Full Paper Pdf] </a></li>
+          <li> Salunke, Shanu. "Modified Boundary Fill for Complete Surface Coverage by Robotic Agents." International Journal of Computer Applications 73, no. 13 (2013). <a href="https://pdfs.semanticscholar.org/8c76/6a059306c3affd9df33c237cb56d838c9530.pdf"> [Full Paper Pdf] </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
   <!-- <h3>Introduction</h3> -->
-  <h3>Publications</h3>
-  <p> <a href="https://scholar.google.com/citations?user=blBBuC0AAAAJ&hl=en"> Google Scholar</a></p>
-  <ul>
-    <li> Zhao, Yiran, Shanu Salunke, Alexander Leavitt, Kevin Curtin, Nghia Huynh, and Clint Zeagler. "E-archery: prototypvte wearable for analyzing archery release." In Proceedings of the 2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing: Adjunct, pp. 908-913. ACM, 2016.<a href="https://drive.google.com/file/d/1QpYwlWZwSOVNSK22vPkhq6JHLjgmoeP4/view?usp=sharing"> [Full Paper Pdf] </a> <a href="javascript:showHideArcheryReviews()"> [Review Comments]</a>
 
-      <div id="archeryReviewComments" style="display:none">
-        <p> Reviewer 1:</p>
-        <p> Contribution:In the paper, a wearable system for archery release detection is proposed. A Random Forest classifier was trained using features computed in several windows. Although the proposed wearable system seems to be suitable in archery, the reviewer argues for improving the quality of the paper. Minor and major points are summarized below.</p>
-        <p>
-          Review: <br>
-        Positive aspects:
-        <ul>
-        <li> Good motivation</li>
-        <li> Integration of background chapter</li>
-        <li> Placement of sensor and proposed pipeline</li>
-        </ul>
-
-        Negative aspects: <br>
-        Minor points:
-        <ul>
-        <li> Sentences are often too long which makes it difficult to follow (abstract: “This paper ... not present.”, introduction: “An archer’s form ... of the target.”, “According to out expert ... of that muscle.”, discussion: “Data collected from this device ...”, ...)</li>
-        <li> Abstract: three types of releases should be mentioned; “a” classifier</li>
-        <li> Background: I would use small letters for twelve parts; abbreviation “BEST” is not further used; Figures should be mentioned in “It can be clearly seen in ... above”</li>
-        <li> Consistency problems: “low-cost” vs. “low cost”, “smartphone” vs “smart-phone”, “Bluetooth” vs “bluetooth”</li>
-        <li> Methods: acceleration range should be included, reference for Savitzky-Golay filter is missing</li>
-        <li> Result: cross validation does not “suggest” -> “A precision of ... was achieved.”</li>
-        <li> References: a consistent format for conference proceedings should be used; reference 8: type is not clear; is there a journal article that can be included?</li>
-        </ul>
-
-
-        Major points:
-        <ul>
-        <li> Don’t describe things that you tried out, e.g. “Originally, out group ...” (design considerations)</li>
-        <li> “Design Description” and “Method”: tenses are mixed, sometimes it is not clear what was implemented and what is future work</li>
-        <li> Please do not used “x, y, z direction”: you should either provide a coordinate system integrated in Figure 4 or use anatomical axes</li>
-        <li> Method: “...features of the raw...”, it is not clear what it is meant by features</li>
-        <li> Quality of figures: please provide sharp images, integrate labels for each axis, linear acceleration should be provided in g or m/s^2, lines should be thicker</li>
-        <li> Discussion: please include an assessment of the algorithm, advantages/disadvantages, ...</li>
-        </ul>
-        </p>
-
-        <p> Reviewer 2:</p>
-
-        <p> Contribution:The paper presents an approach for a wearable archery system. It measures accelerometer data on the glove and classifies different types of releases.</p>
-
-
-
-        <p> Review:
-        The paper itself is well written and easy understandable. It has a well written motivation and includes and theory chapter for better understanding. The paper demonstrates on a good descripted way the proposed sensor system, beginning theory, sensor design, placement, classification and result presentation. However, there are some weaker points:
-        <ul>
-        <li> I would added some more specific information about the release types and the classifier into the abstract, that would it make more understandable</li>
-        <li> Figures should be more related to text section for better understanding</li>
-        <li> The purpose of the paper at end of the related work section is not clear. It states the development of form and performance relation analysis, but that is not exactly done in this contribution?</li>
-        <li> Why are used only 5 Hz sampling rate and has therefore the filter delay an influence correct window separation and finally on the classified release?</li>
-        <li> Hoe could is the data binning exactly done?</li>
-        <li> Figure 5 is hard to understand on black/white prints</li>
-        <li> I would not describe the original goals using EMG if it is not implemented in the final work</li>
-        <li> References should be in an consistent format, webpages should have an access date</p></li>
-        </ul>
-        </div>
-
-    </li>
-    <li> Goel, Ashok, Brian Creeden, Mithun Kumble, Shanu Salunke, Abhinaya Shetty, and Bryan Wiltgen. "Using watson for enhancing human-computer co-creativity." In Proceedings of AAAI 2015 fall symposium on cognitive assistance, Arlington, VA, November. 2015.<a href="http://www.aaai.org/ocs/index.php/FSS/FSS15/paper/download/11713/11472"> [Full Paper Pdf] </a></li>
-    <li> Salunke, Shanu. "Modified Boundary Fill for Complete Surface Coverage by Robotic Agents." International Journal of Computer Applications 73, no. 13 (2013). <a href="https://pdfs.semanticscholar.org/8c76/6a059306c3affd9df33c237cb56d838c9530.pdf"> [Full Paper Pdf] </a></li>
-  </ul>
   <!-- <h3>Projects</h3>
   <ul>
     <li> <b> PCG Story Generation for Games </b> <p> Text </p></li>
@@ -86,5 +108,9 @@ function showHideArcheryReviews() {
     <li> <b> Title </b> <p> Text </p></li>
     <li> <b> Title </b> <p> Text </p></li>
   </ul> -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 </html>
